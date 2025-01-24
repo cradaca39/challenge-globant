@@ -1,0 +1,16 @@
+# Ignorar carpetas y archivos innecesarios
+node_modules
+*.log
+*.tmp
+*.env
+**/mysql.sock
+.DS_Store
+uploads/
+
+# Ignorar configuraciones específicas de sistemas operativos
+.vscode/
+Thumbs.db
+
+# Ignorar binarios y salidas de compilación
+dist/
+build/
